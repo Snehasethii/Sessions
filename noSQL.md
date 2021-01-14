@@ -39,7 +39,7 @@ A value associated with a given key can be deleted using ``delete(key)`` operati
 
 
 
-### <strong>Column-oriented databases.</strong> stores data in cells grouped in columns of data rather than as rows of data. It uses the concept of keyspace which contains column families that contain rows and each row contains columns in which data is stored. In the column-oriented database, the primary key is data mapped from rows while in a row-oriented database primary key is a row, in order to retrieve data you will get full row data but in the column-oriented database you can directly access that particular column data.
+### <strong>Column-oriented databases </strong> stores data in cells grouped in columns of data rather than as rows of data. It uses the concept of keyspace which contains column families that contain rows and each row contains columns in which data is stored. In the column-oriented database, the primary key is data mapped from rows while in a row-oriented database primary key is a row, in order to retrieve data you will get full row data but in the column-oriented database you can directly access that particular column data.
 
 ### <strong>Graph Databases </strong> organizes data in the form of a <strong><em>graph</em></strong>. A graph database contains a collection of edges and nodes. Nodes store the information about entities like things, places, and people, and edges stores the information about the relationship between two entities. Graph databases allow us to apply graph theory to our data in an efficient manner like for finding minimal routes between nodes. Examples of Graph databases are Neo4j,OrientDB,ArangoDB.Graph databases are used for solving Many to Many problems or where the relationship between entities is more important.
 
